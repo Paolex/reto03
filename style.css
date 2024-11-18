@@ -1,0 +1,88 @@
+.titulo{
+    color: cornflowerblue;
+    font-size: 50px;
+}
+
+.titulo2{
+    font-size: 50px;
+}
+
+.container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+}
+
+.portada{
+    width: 100%;
+}
+
+.categorias{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2rem;   
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.descrip{
+    text-align: center;
+}
+
+.nosotros{
+    display: flex;
+}
+
+.nosotros2{
+    background-color: cornflowerblue;
+    color: white;
+    display: grid;
+}
+
+.nosotros3{
+    display: grid;
+    padding: 20px;
+}
+
+button{
+    color: white;
+    background-color: rgb(114, 187, 4);
+    padding: 20px;
+}
+
+.pro2{
+    background-color: cornflowerblue;
+    color: white;
+    display: grid;
+}
+
+.productos2{
+    display: flex;
+    gap: 2rem;
+}
+
+.productos3{
+    display: flex;
+    gap: 2rem;
+}
+
+.titulo3{
+    font-size: 25px;
+}
+
+.container2{
+    display: grid;
+    flex-direction: row;
+    gap: 2rem;
+    grid-template-columns: 35% 35% 35%;
+}
+
+.derechos{
+    text-align: center;
+}
