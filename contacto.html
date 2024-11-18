@@ -11,18 +11,115 @@
         <div>
             <header>
                 <h1 class="titulo">Tienda Muebles</h1>
-                <div class="container">
+                    <div class="container">
                         <a href="index.html">Inicio</a>
                         <a href="nosotros.html">Nosotros</a>
                         <a href="tienda.html">Tienda</a>
                         <a href="blog.html">Blog</a>
                         <a href="galeria.html">Galeria</a>
                         <a href="contacto.html">Contacto</a>
-                </div>
+                    </div>
             </header>
         </div>
         <h2 class="titulo2">Contacto</h2>
+    <form>
+        <fieldset class="form-group">
+            <legend class="labelHeader">TUS DATOS</legend>
+            <label for="inputFree">Nombre:
+                <input
+                type="text"
+                placeholder="Tu Nombre"
+                id="inputFree"
+                />
+            </label>
+           <div>
+           <label for="inputFree">Asunto:
+                <input
+                type="text"
+                placeholder="Tu Asunto"
+                id="inputFree"
+                />
+            </label>
+            </div>
+            <div>
+            <label for="inputFree">Email:
+                <input
+                type="text"
+                placeholder="Tu Email"
+                id="inputFree"
+                />
+            </label>
+            </div>
+            <label for="inputFree">Telefono:
+                <input
+                type="text"
+                placeholder="Tu Telefono"
+                id="inputFree"
+                />
+            </label>
+            <div>
+            <label for="inputFree">Mensaje:
+                <input
+                type="text"
+                id="inputFree"
+                />
+            </label>
+            </div>
+        </fieldset>
+        <br>
+          <fieldset class="form-group">
+            <legend class="labelHeader">PAIS</legend>
+            <label>PAIS</label>
+            <select>
+                <option>-- Seleccione --</option>
+                <option>Mexico</option>
+                <option>Peru</option>
+                <option>Colombia</option>
+                <option>Argentina</option>
+                <option>España</option>
+                <option>Chile</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset class="form-group">
+            <legend class="labelHeader">INFORMACION EXTRA</legend>
+            <div class="form-group">
+                <div>
+                <label for="inputSi">
+                  Cliente
+                  <input
+                    name="preguntaCasado"
+                    type="radio"
+                    id="inputSi"
+                    value="si"
+                  />
+                </label>
+            </div>
+                <label for="inputNo">
+                  Proveedor
+                  <input
+                    name="preguntaCasado"
+                    type="radio"
+                    id="inputNo"
+                    value="no"
+                  />
+                </label>
+              </div>
+              <div>
+                <label for="inputFree">Categoria de Interes:
+                    <input
+                    type="text"
+                    id="inputFree"
+                    />
+                </label>
+                </div>
+        </fieldset>
+        <br>
+          <button type="submit">ENVIAR FORMULARIO</button> 
+      </fieldset>
+  </form>
     </main>
+    <br>
     <hr>
     <footer>
         <div class="container2">
