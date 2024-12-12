@@ -7,69 +7,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <div>
-            <header>
-                <h1 class="titulo">Tienda Muebles</h1>
-                    <div class="container">
+    <header>
+        <h1 class="titulo">Tienda <span>Muebles</span></h1>
+            <nav class="ancho">
+                <ul class="container">
+                    <li>
                         <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
                         <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
                         <a href="tienda.html">Tienda</a>
+                    </li>
+                    <li>
                         <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
                         <a href="galeria.html">Galeria</a>
+                    </li>
+                    <li>
                         <a href="contacto.html">Contacto</a>
-                    </div>
-            </header>
-        </div>
-        <h2 class="titulo2">Contacto</h2>
-    <form>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section class="ancho">
+            <h2 class="titulo2">Contacto</h2>
+        <form>
         <fieldset class="form-group">
             <legend class="labelHeader">TUS DATOS</legend>
-            <label for="inputFree">Nombre:
+            <div class="formulario">
+                Nombre:
                 <input
                 type="text"
                 placeholder="Tu Nombre"
                 id="inputFree"
                 />
-            </label>
-           <div>
-           <label for="inputFree">Asunto:
+            </div>
+            <div class="formulario">
+                Asunto:
                 <input
                 type="text"
                 placeholder="Tu Asunto"
                 id="inputFree"
                 />
-            </label>
             </div>
-            <div>
-            <label for="inputFree">Email:
+            <div class="formulario">
+                Email:
                 <input
                 type="text"
                 placeholder="Tu Email"
                 id="inputFree"
                 />
-            </label>
             </div>
-            <label for="inputFree">Telefono:
+            <div>
+                Telefono:
                 <input
                 type="text"
                 placeholder="Tu Telefono"
                 id="inputFree"
                 />
-            </label>
+            </div>
             <div>
-            <label for="inputFree">Mensaje:
+                Mensaje:
                 <input
                 type="text"
                 id="inputFree"
                 />
-            </label>
             </div>
         </fieldset>
-        <br>
-          <fieldset class="form-group">
+
+        <fieldset class="form-group">
             <legend class="labelHeader">PAIS</legend>
-            <label>PAIS</label>
+            PAIS
             <select>
                 <option>-- Seleccione --</option>
                 <option>Mexico</option>
@@ -80,73 +93,73 @@
                 <option>Chile</option>
             </select>
         </fieldset>
-        <br>
+
         <fieldset class="form-group">
             <legend class="labelHeader">INFORMACION EXTRA</legend>
-            <div class="form-group">
-                <div>
-                <label for="inputSi">
-                  Cliente
-                  <input
+                <div>Cliente
+                    <input
                     name="preguntaCasado"
                     type="radio"
                     id="inputSi"
                     value="si"
-                  />
-                </label>
-            </div>
-                <label for="inputNo">
-                  Proveedor
-                  <input
+                    />
+                </div>
+                <div>Proveedor
+                    <input
                     name="preguntaCasado"
                     type="radio"
                     id="inputNo"
                     value="no"
-                  />
-                </label>
-              </div>
-              <div>
-                <label for="inputFree">Categoria de Interes:
+                    />
+                </div>
+                <div>Categoria de Interes:
                     <input
                     type="text"
                     id="inputFree"
                     />
-                </label>
                 </div>
         </fieldset>
-        <br>
-          <button type="submit">ENVIAR FORMULARIO</button> 
-      </fieldset>
-  </form>
+        <div class="form-group">
+            <button type="submit">ENVIAR FORMULARIO</button> 
+        </div>
+        </form>
+    </section>
     </main>
-    <br>
     <hr>
     <footer>
-        <div class="container2">
-            <div>
-                <h3 class="titulo3">Categorias</h3>
-                <p>Cocina</p>
-                <p>Oficina</p>
-                <p>Jardin</p>
-                <p>Cochera</p>
-                <p>Dormitorio</p>
+        <section class="ancho">
+            <div class="container2">
+                <div class="footers">
+                    <h3 class="titulo3">Categorias</h3>
+                    <ul>
+                        <li>Cocina</li>
+                        <li>Oficina</li>
+                        <li>Jardin</li>
+                        <li>Cochera</li>
+                        <li>Dormitorio</li>
+                    </ul>
+                </div>
+                <div class="footers">
+                    <h3 class="titulo3">Sobre Nosotros</h3>
+                    <ul>
+                        <li>Nuestra Historia</li>
+                        <li>Mision, vision y Valores</li>
+                        <li>Carreras</li>
+                        <li>Politica de Privacidad</li>
+                        <li>Terminos del Servicio</li>
+                    </ul>
+                </div>
+                <div class="footers">
+                    <h3 class="titulo3">Soporte</h3>
+                    <ul>
+                        <li>Preguntas Frecuentes</li>
+                        <li>Ayuda en linea</li>
+                        <li>Confianza y Seguridad</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3 class="titulo3">Sobre Nosotros</h3>
-                <p>Nuestra Historia</p>
-                <p>Mision, vision y Valores</p>
-                <p>Carreras</p>
-                <p>Politica de Privacidad</p>
-                <p>Terminos del Servicio</p>
-            </div>
-            <div>
-                <h3 class="titulo3">Soporte</h3>
-                <p>Preguntas Frecuentes</p>
-                <p>Ayuda en linea</p>
-                <p>Confianza y Seguridad</p>
-            </div>
-        </div>
-        <p class="derechos">Todos los derechos Reservados, TiendaMuebles</p>
+            <p class="derechos">Todos los derechos Reservados, TiendaMuebles</p>
+        </section>
     </footer>
 </body>
 </html>
